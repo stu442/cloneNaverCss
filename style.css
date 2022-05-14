@@ -8,7 +8,13 @@ header{
 }
 
 h1 {
-    color:greenyellow
+    color:rgb(33, 200, 77);
+    font-size:50px;
+    margin:10px;
+}
+
+li{
+    list-style: none;
 }
 
 
@@ -21,21 +27,52 @@ h1 {
 }
 
 .upheader > div:nth-child(2) {
-    border-left: 1px gray solid;
+    border-left: 1px silver solid;
     margin-left: 5px;
     padding-left: 5px;
+    color:gray;
+    margin-bottom:22px;
 }
 
 .hat{
     margin: 0px;
     display: flex;
-    width: 1130px;
-    height: 150px;
-    background: violet;
+    justify-content: left;
+    margin-right: 395px;
+    margin-left: 395px;
+    height: 125px;
 }
 
 #hat{
     height: 70px;
 }
 
-/* 1920 > 1130 양쪽으로  790 > 395*/
+#searching{
+    margin-left: 30px;
+    width: 530px;
+    height: 56px;
+    border:2px solid rgb(33, 200, 77);
+    margin-top: 10px;
+}
+
+#search_btn{
+    height:56px;
+    margin-top: 10px;
+}
+/* 가로/세로  1920 > 1130 양쪽으로  790 > 395*/
+/* 색상 코드  33/200/77 */
+
+
+/*  hat end   */
+
+/* nav */
+/* nav 높이 53 */
+nav{
+    background-color: aqua;
+    height: 53px;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+}
+ul{
+    margin:0px
+}
