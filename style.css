@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding-top: 10px;
+}
+
+header{
+    margin: 0px;
+}
+
+h1 {
+    color:greenyellow
+}
+
+
+/*  hat start  */
+.upheader {
+    margin-right: 395px;
+    display: flex;
+    font-size : 12px;
+    justify-content: end;
+}
+
+.upheader > div:nth-child(2) {
+    border-left: 1px gray solid;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.hat{
+    margin: 0px;
+    display: flex;
+    width: 1130px;
+    height: 150px;
+    background: violet;
+}
+
+#hat{
+    height: 70px;
+}
+
+/* 1920 > 1130 양쪽으로  790 > 395*/
