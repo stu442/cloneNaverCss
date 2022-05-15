@@ -68,11 +68,43 @@ li{
 /* nav */
 /* nav 높이 53 */
 nav{
-    background-color: aqua;
+    display: flex;
+    padding-right: 395px;
+    padding-left: 395px;
     height: 53px;
-    border-bottom: 1px solid silver;
-    border-top: 1px solid silver;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    border-top: 1px solid rgba(0,0,0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
 }
 ul{
-    margin:0px
+    padding: 0px;
+    margin:0px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+li:not(:last-child){
+    margin-right: 9px;
+    font-weight: 650;
+}
+li{
+    font-size:15px
+}
+.greenfont{
+    color:rgb(33, 200, 77);
+}
+li:last-child{
+    font-size:13px;
+    margin-left: 5px;
+}
+#mail{
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+/* nav end */
+/* footer start */
